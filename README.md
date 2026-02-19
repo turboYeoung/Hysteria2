@@ -4,9 +4,3 @@
 
 ```bash
 bash <(curl -fsSL https://raw.githubusercontent.com/turboYeoung/Hysteria2/main/install.sh)
-
-
-
-
-
-
