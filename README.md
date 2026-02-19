@@ -1,8 +1,6 @@
-安装
+### 安装命令
 
+运行以下命令以一键安装 Hysteria2：
+
+```bash
 bash <(curl -fsSL https://raw.githubusercontent.com/turboYeoung/Hysteria2/main/install.sh)
-
-
-卸载 
-
-bash <(curl -fsSL https://get.hy2.sh/) --remove
