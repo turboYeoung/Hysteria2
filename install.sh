@@ -122,7 +122,7 @@ echo ">>> 获取服务器公网 IP"
 SERVER_IP=$(curl -s https://api.ipify.org || curl -s https://ip.sb)
 
 # ========= 确保 HYSTERIA_LINK 正确构建 =========
-HYSTERIA_LINK="hysteria2://${AUTH_PASS}@${SERVER_IP}:${REAL_PORT}?sni=${FAKE_DOMAIN}&insecure=1&allowInsecure=1#Hysteria2"
+HYSTERIA_LINK="hysteria2://${AUTH_PASS}@${SERVER_IP}:${REAL_PORT}?sni=${FAKE_DOMAIN}&alpn=h3&insecure=1&allowInsecure=1#Hysteria2"
 
 # ========= 输出 =========
 echo "===================================="
